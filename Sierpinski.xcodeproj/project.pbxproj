@@ -12,6 +12,8 @@
 		BE9C073F1DE38E9D0042E330 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE9C073D1DE38E9D0042E330 /* Main.storyboard */; };
 		BE9C07411DE38E9E0042E330 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE9C07401DE38E9E0042E330 /* Assets.xcassets */; };
 		BE9C07441DE38E9E0042E330 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE9C07421DE38E9E0042E330 /* LaunchScreen.storyboard */; };
+		BE9C074C1DE38EB90042E330 /* SierpinskiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9C074B1DE38EB90042E330 /* SierpinskiView.swift */; };
+		BE9C074E1DE3BEBD0042E330 /* Turtle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9C074D1DE3BEBD0042E330 /* Turtle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		BE9C07401DE38E9E0042E330 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE9C07431DE38E9E0042E330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE9C07451DE38E9E0042E330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE9C074B1DE38EB90042E330 /* SierpinskiView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SierpinskiView.swift; sourceTree = "<group>"; };
+		BE9C074D1DE3BEBD0042E330 /* Turtle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Turtle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				BE9C07391DE38E9D0042E330 /* AppDelegate.swift */,
 				BE9C073B1DE38E9D0042E330 /* ViewController.swift */,
+				BE9C074B1DE38EB90042E330 /* SierpinskiView.swift */,
+				BE9C074D1DE3BEBD0042E330 /* Turtle.swift */,
 				BE9C073D1DE38E9D0042E330 /* Main.storyboard */,
 				BE9C07401DE38E9E0042E330 /* Assets.xcassets */,
 				BE9C07421DE38E9E0042E330 /* LaunchScreen.storyboard */,
@@ -139,6 +145,8 @@
 			files = (
 				BE9C073C1DE38E9D0042E330 /* ViewController.swift in Sources */,
 				BE9C073A1DE38E9D0042E330 /* AppDelegate.swift in Sources */,
+				BE9C074C1DE38EB90042E330 /* SierpinskiView.swift in Sources */,
+				BE9C074E1DE3BEBD0042E330 /* Turtle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +310,7 @@
 				BE9C074A1DE38E9E0042E330 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
