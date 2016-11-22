@@ -3,7 +3,7 @@ Generates a Sierpiński curve using a turtle mechanism in Swift.
 
 ## Levels
 
-The level determines the number of recursive steps are generated.
+The level, also known as generation, determines the number of recursive steps that are generated.
 
 |  <img src="readme-resources/1.png" style="max-height: 170px"> | <img src="readme-resources/2.png" style="max-height: 170px">  | <img src="readme-resources/3.png" style="max-height: 170px">  |
 |---|---|---|
