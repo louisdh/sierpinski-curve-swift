@@ -11,7 +11,7 @@ import UIKit
 @IBDesignable
 class SierpinskiView: UIView {
 	
-	@IBInspectable var numberOfLevels: CGFloat = 3.0 {
+	@IBInspectable var level: CGFloat = 3.0 {
 		didSet {
 			setNeedsDisplay()
 		}
@@ -42,7 +42,7 @@ class SierpinskiView: UIView {
 		
 		let turtle = DrawingTurtle(location: .zero)
 		
-		sierpinski(size: 1.0, level: numberOfLevels, with: turtle)
+		sierpinski(size: 1.0, level: level, with: turtle)
 
 		let path = turtle.path
 		
